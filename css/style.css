@@ -212,11 +212,13 @@ img{
 .home__social-icon:hover{
   color: var(--first-color);
 }
+
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 295px;
+  right: 10%;
+  top: 15%;
+  width: 40%;
+  height: -10px;
 }
 
 /*BUTTONS*/
@@ -305,6 +307,7 @@ img{
 }
 
 /* ===== WORK =====*/
+/*
 .work__container{
   row-gap: 2rem;
 }
@@ -320,7 +323,7 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
-
+*/
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -414,7 +417,9 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
+    position: absolute;
+    width: 30%;
+    margin-top: 8%;
     bottom: 15%;
   }
 
@@ -446,5 +451,7 @@ img{
   }
   .home__img{
     right: 10%;
+    width: 30%;
+    
   }
 }
