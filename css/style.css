@@ -307,7 +307,7 @@ img{
 }
 
 /* ===== WORK =====*/
-/*
+
 .work__container{
   row-gap: 2rem;
 }
@@ -323,7 +323,7 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
-*/
+
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
